@@ -1,31 +1,33 @@
 /* General settings */
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background: url('https://e.top4top.io/p_23655gkqa1.jpg') no-repeat center center fixed; /* استبدل 'https://your-image-url.com/image.jpg' برابط الصورة الخاصة بك */
+    background: url('https://your-image-url.com/image.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #333;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
     margin: 0;
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.8); /* إضافة شفافية للخلفية لتبرز النصوص بشكل أفضل */
-    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px; /* زيادة الحواف الداخلية */
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
-    width: 100%;
+    max-width: 600px; /* زيادة العرض الأقصى */
+    width: 90%; /* زيادة العرض النسبي */
     text-align: center;
     animation: fadeIn 1s ease-in-out;
+    margin: 15px; /* زيادة المسافة بين المربعات */
 }
 
 h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
+    font-size: 26px; /* زيادة حجم الخط للعنوان */
+    margin-bottom: 25px; /* زيادة المسافة بين العنوان والمحتوى */
     color: #444;
 }
 
@@ -36,13 +38,13 @@ h1 {
 }
 
 .social-links li {
-    margin: 10px 0;
+    margin: 12px 0; /* زيادة المسافة بين الروابط */
 }
 
 .social-links a {
     text-decoration: none;
-    font-size: 18px;
-    padding: 12px 20px;
+    font-size: 20px; /* زيادة حجم الخط للروابط */
+    padding: 15px 25px; /* زيادة الحواف الداخلية للأزرار */
     border-radius: 30px;
     display: inline-flex;
     align-items: center;
@@ -51,15 +53,16 @@ h1 {
 }
 
 .social-links a i {
-    margin-right: 10px;
+    margin-right: 12px; /* زيادة المسافة بين الأيقونة والنص */
 }
 
 .social-links a.line { background-color: #00c300; }
-.social-links a.paypal { background-color: #003087; }
-.social-links a.whatsapp { background-color: #25D366; }
-.social-links a.instagram { background-color: #e4405f; }
-.social-links a.linkedin { background-color: #0077b5; }
-.social-links a.youtube { background-color: #ff0000; }
+social-links a.paypal { background-color: #003087; }
+social-links a.whatsapp { background-color: #25D366; }
+social-links a.instagram { background-color: #e4405f; }
+social-links a.youtube { background-color: #ff0000; }
+social-links a.api-docs { background-color: #4CAF50; }
+social-links a.qr-code { background-color: #9C27B0; }
 
 .social-links a:hover {
     transform: translateY(-3px);
