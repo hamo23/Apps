@@ -1,4 +1,4 @@
-/* إعدادات عامة */
+/* General settings */
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     background-color: #f4f4f4;
@@ -53,8 +53,9 @@ h1 {
     margin-right: 10px;
 }
 
-.social-links a.facebook { background-color: #3b5998; }
-.social-links a.twitter { background-color: #1da1f2; }
+.social-links a.line { background-color: #00c300; }
+.social-links a.paypal { background-color: #003087; }
+.social-links a.whatsapp { background-color: #25D366; }
 .social-links a.instagram { background-color: #e4405f; }
 .social-links a.linkedin { background-color: #0077b5; }
 .social-links a.youtube { background-color: #ff0000; }
@@ -64,7 +65,7 @@ h1 {
     opacity: 0.9;
 }
 
-/* تأثيرات */
+/* Animations */
 @keyframes fadeIn {
     from {
         opacity: 0;
