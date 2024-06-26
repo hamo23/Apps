@@ -1,4 +1,11 @@
- /* General settings */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>King Bots</title>
+    <style>
+        /* General settings */
         body {
             font-family: 'Helvetica Neue', Arial, sans-serif;
             background: url('https://e.top4top.io/p_23655gkqa1.jpg') no-repeat center center fixed;
@@ -21,6 +28,9 @@
             width: 90%;
             text-align: center;
             animation: fadeIn 1s ease-in-out;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
         .avatar {
@@ -40,10 +50,12 @@
             list-style: none;
             padding: 0;
             margin: 20px 0 0;
+            display: flex;
+            justify-content: center;
         }
 
         .social-links li {
-            margin: 15px 0;
+            margin: 0 10px;
         }
 
         .social-links a {
