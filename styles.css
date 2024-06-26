@@ -1,81 +1,104 @@
-/* General settings */
-body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    background: url('https://kingbots.netlify.app/images/bg.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: #333;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 100vh;
-    margin: 0;
-}
+ /* General settings */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background: url('https://e.top4top.io/p_23655gkqa1.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
 
-.container {
-    background-color: rgba(255, 255, 255, 0.95);
-    padding: 40px;
-    border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    max-width: 600px;
-    width: 90%;
-    text-align: center;
-    animation: fadeIn 1s ease-in-out;
-    margin: 30px;
-}
+        .container {
+            background-color: rgba(255, 255, 255, 0.95);
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            width: 90%;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+        }
 
-h1 {
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: #444;
-}
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
 
-.social-links {
-    list-style: none;
-    padding: 0;
-    margin: 20px 0 0;
-}
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #444;
+        }
 
-.social-links li {
-    margin: 15px 0;
-}
+        .social-links {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0 0;
+        }
 
-.social-links a {
-    text-decoration: none;
-    font-size: 18px;
-    padding: 15px 30px;
-    border-radius: 40px;
-    display: inline-block;
-    color: #fff;
-    transition: background-color 0.3s, transform 0.3s;
-}
+        .social-links li {
+            margin: 15px 0;
+        }
 
-.social-links a i {
-    margin-right: 12px;
-}
+        .social-links a {
+            text-decoration: none;
+            font-size: 18px;
+            padding: 15px 30px;
+            border-radius: 40px;
+            display: inline-block;
+            color: #fff;
+            transition: background-color 0.3s, transform 0.3s;
+        }
 
-.social-links a.line { background-color: #00c300; }
-.social-links a.paypal { background-color: #003087; }
-.social-links a.whatsapp { background-color: #25D366; }
-.social-links a.instagram { background-color: #e4405f; }
-.social-links a.youtube { background-color: #ff0000; }
-.social-links a.api-docs { background-color: #4CAF50; }
-.social-links a.qr-code { background-color: #9C27B0; }
+        .social-links a i {
+            margin-right: 12px;
+        }
 
-.social-links a:hover {
-    transform: translateY(-3px);
-    opacity: 0.9;
-}
+        .social-links a.line { background-color: #00c300; }
+        .social-links a.paypal { background-color: #003087; }
+        .social-links a.whatsapp { background-color: #25D366; }
+        .social-links a.instagram { background-color: #e4405f; }
+        .social-links a.youtube { background-color: #ff0000; }
+        .social-links a.api-docs { background-color: #4CAF50; }
+        .social-links a.qr-code { background-color: #9C27B0; }
 
-/* Animations */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: scale(0.95);
-    }
-    to {
-        opacity: 1;
-        transform: scale(1);
-    }
-}
+        .social-links a:hover {
+            transform: translateY(-3px);
+            opacity: 0.9;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://i.top4top.io/p_3099gu2100.jpg" alt="Avatar" class="avatar">
+        <h1>Mr.king market bot line</h1>
+        <ul class="social-links">
+            <li><a href="#" class="line"><i class="fab fa-line"></i> Line</a></li>
+            <li><a href="#" class="paypal"><i class="fab fa-paypal"></i> PayPal</a></li>
+            <li><a href="#" class="whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a></li>
+            <li><a href="#" class="instagram"><i class="fab fa-instagram"></i> Instagram</a></li>
+            <li><a href="#" class="youtube"><i class="fab fa-youtube"></i> YouTube</a></li>
+            <li><a href="#" class="api-docs"><i class="fas fa-file-alt"></i> API Docs</a></li>
+            <li><a href="#" class="qr-code"><i class="fas fa-qrcode"></i> QR Code</a></li>
+        </ul>
+    </div>
+</body>
+</html>
