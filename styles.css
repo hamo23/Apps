@@ -1,7 +1,8 @@
 /* General settings */
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    background-color: #f4f4f4;
+    background: url('https://e.top4top.io/p_23655gkqa1.jpg') no-repeat center center fixed; /* استبدل 'https://your-image-url.com/image.jpg' برابط الصورة الخاصة بك */
+    background-size: cover;
     color: #333;
     text-align: center;
     display: flex;
@@ -12,7 +13,7 @@ body {
 }
 
 .container {
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.8); /* إضافة شفافية للخلفية لتبرز النصوص بشكل أفضل */
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
